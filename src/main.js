@@ -16,6 +16,14 @@ import { Hooper, Slide } from 'hooper';
 import 'hooper/dist/hooper.css';
 
 
+import 'vue-event-calendar/dist/style.css' 
+import vueEventCalendar from 'vue-event-calendar'
+
+Vue.use(vueEventCalendar, {
+  locale: 'fr',
+  color: '#f4150b',
+  weekStartOn: 1
+}) 
 Vue.config.productionTip = false
 
 Vue.use(BootstrapVue)

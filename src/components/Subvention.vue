@@ -1,9 +1,32 @@
 <template>
-    <div style="background-color:#F7F7FF; padding-buttom:100px"> 
+   
+    <div style="background-color:#F7F7FF; padding-buttom:100px; " > 
+  <nav class="floating-menu" style="padding-top: 250px; padding-bottom: 200px;">
+   <div style="background-color: red; border-radius: 10px; padding-top:20px; padding-bottom: 20px;" >
+        <div  id="zoom" style="text-align: center; transition: transform .2s;">
+        <a class="navbar-brand" href="#">
+        <img style="height:60px; " src="../assets/icone03.png" alt=""> <br>
+        <span class="tooltiptext">Entreprise</span> 
+        </a>
+        </div>
+            <div  id="zoom" style="text-align: center; padding-top:20px">
+            <a class="navbar-brand" href="#">
+            <img style="height:60px;" src="../assets/icone02.png" alt=""> <br>
+             <span class="tooltiptext">agence</span> 
+            </a>
+            </div>
+        <div  id="zoom" style="text-align: center; padding-top:20px">
+        <a class="navbar-brand" href="#">
+        <img style="height:60px;" src="../assets/icone01.png" alt=""> <br>
+          <span class="tooltiptext">Collectivité </span> 
+        </a>
+        </div>
+    </div>
+    </nav>
         <App-Nav></App-Nav>
         <div style="text-align: center;">
         <div class="flex" style="text-align: center;">
-        <h4 style="color: red; padding-top:50px ">Numériser votre entreprise n’a jamais été aussi simple</h4>
+        <h4 style="color: red; padding-top:50px">Numériser votre entreprise n’a jamais été aussi simple</h4>
 
         <p style="text-align: start; padding-top:50px; padding-left: 50px ">
             Numériser votre entreprise n’a jamais été aussi simple Nous sommes depuis quelques années rentrés dans l’ère du numérique. Le digital prend <br>
@@ -20,21 +43,57 @@
     </div>
 </template>
 
-
 <script>
 import AppFooter from './AppFooter.vue';
 import AppNav from './AppNav.vue';
 
 
 export default {
-    components:{
+   
+   components:{
         AppFooter,
         AppNav
-
     }
 };
 </script>
 
+
 <style >
 
+.floating-menu {
+    font-family: sans-serif;
+    padding: 5px;;
+    width: 130px;
+    z-index: 100;
+    position: fixed;
+  }
+  .floating-menu a, 
+  .floating-menu h3 {
+    font-size: 0.9em;
+    display: block;
+    margin: 0 0.5em;
+    color: white;
+  }
+ 
+  #zoom:hover{
+       transform: scale(1.5);
+  }
+  #zoom:hover .tooltiptext{
+        visibility: visible;
+  }
+
+  #zoom .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+ 
 </style>

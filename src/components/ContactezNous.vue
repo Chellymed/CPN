@@ -98,9 +98,13 @@
                             </div>
                             <div class="row">
                                 <div class="col">  
-                                    <p> 
-                                        +33 6 73 46 65 64
+                                     <p>
+                                          
+                                        +33 6 73 46 65 64 <br>
+                                         01 84 14 23 94
                                     </p>
+                                 
+                                   
                                 </div>
                             </div>
                              <div class="row">
@@ -111,7 +115,7 @@
                             <div class="row">
                                 <div class="col">  
                                     <p> 
-                                       votreconsieller@cpn-aide-aux-entreprise.com
+                                       votreconseiller@cpn-aide-aux-entreprise.com
                                     </p>
                                 </div>
                             </div>

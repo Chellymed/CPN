@@ -52,9 +52,7 @@
                 <i class="fab fa-youtube"></i>
               </a>
             </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
+           
             <div
               class="col-lg-3 col-md-6 mb-4 mb-md-0"
               style="padding-top: 25px"
@@ -86,9 +84,7 @@
                 </li>
               </ul>
             </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
+            
             <div
               class="col-lg-4 col-md-12 mb-4 mb-md-0"
               style="padding-top: 25px"
@@ -96,11 +92,13 @@
               <h5 class="text-uppercase mb-0">Contact</h5>
 
               <div class="list-unstyled" style="padding-top: 25px">
-                <p class="text-white">+336 73 46 65 64</p>
+                <p class="text-white">+336 73 46 65 64 <br> 01 84 14 23 94</p>
                 <p class="text-white">
-                  votreconseiller@cpn-aide-aux-entreprise.com
+                  votreconseiller@cpn-aide-aux-entreprise.com <br>
                 </p>
+                  <a href="" style=" text-decoration: none; color:white" > je suis un conseiller </a>
               </div>
+              
             </div>
             <!--Grid column-->
           </div>

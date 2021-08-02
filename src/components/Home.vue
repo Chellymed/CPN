@@ -1,42 +1,20 @@
-
 <template>
   <div>
-    <head>
-      <link
-        href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-        rel="stylesheet"
-      />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
-        rel="stylesheet"
-      />
-    </head>
     <app-nav></app-nav>
     <div
       class="row "
-      style="
-        background-color: #F7F7FF;
-        border-bottom-right-radius: 30%;
-        margin-right: 0px;
-        margin-left: 0px;
-      "
+      style="background-color: #F7F7FF; border-bottom-right-radius: 30%; margin-right: 0px;margin-left: 0px;"
     >
       <div class="col" style="padding-top: -100px">
         <img
           :src="require('../assets/image.png')"
           alt=""
           height="750"
-          style="background-color: #F7F7FF;  padding-top: -150px"
-        />
-       
+          style="background-color: #F7F7FF;  padding-top: -150px"/>
       </div>
       <div
         class="col"
-        style="
-          background-color: #F7F7FF;
-          margin-top: 70px;
-          border-bottom-right-radius: 30%;
-        ">
+        style=" background-color: #F7F7FF; margin-top: 70px; border-bottom-right-radius: 30%;">
         <tr></tr>
         <tr></tr>
         <h1 style="color: #21075e; font-weight: 700; font-size: 80px">
@@ -194,9 +172,7 @@
           subvention</a
         >
       </div>
-
       <div class="row" style="padding-left: 150px">
-       
         <div
           class="col"
           style="background-color: #e5e5e5; margin-top: 70px"
@@ -210,7 +186,6 @@
 <script>
 import AppFooter from './AppFooter.vue';
 import AppNav from './AppNav.vue';
-
 
 export default {
     components:{
@@ -269,8 +244,5 @@ export default {
     transform: skew(0deg, 0deg);
   }
 }
-
-
-
 
 </style>

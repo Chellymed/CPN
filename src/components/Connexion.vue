@@ -1,7 +1,7 @@
 <template>
 <div>
         <app-nav></app-nav>
-    <div class="row" style="background-color: #F7F7FF;"> 
+    <div class="row" style="background-color: #F7F7FF; margin-right: 0px;"> 
         <div class="col d-flex justify-content-center" style="">
             <img src="../assets/adobestock.png" alt="" style="height: 600px;  ">
         </div>
@@ -39,8 +39,11 @@
                     </div>
                 </form>
           </div>
+      
     </div>
-        <app-footer></app-footer>
+        <app-footer>
+
+        </app-footer>
     </div>
 </template>
 
