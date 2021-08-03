@@ -1,6 +1,7 @@
 <template>
   <div style="background-color: #F7F7FF">
         <app-nav></app-nav>
+        <nav-bar-vertical></nav-bar-vertical>
     <div class="row">
       <div class="col-md-6 text-center" >
         <div class="row justify-content-center">
@@ -35,17 +36,18 @@
 <script>
 import AppFooter from './AppFooter.vue';
 import AppNav from './AppNav.vue';
+import NavBarVertical from "./NavBarVertical.vue";
 
 
 export default {
     components:{
         AppFooter,
-        AppNav
+        AppNav,
+        NavBarVertical
     }
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style >
 
 </style>

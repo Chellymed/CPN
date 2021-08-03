@@ -1,6 +1,8 @@
 <template>
   <div>
     <app-nav></app-nav>
+   <nav-bar-vertical></nav-bar-vertical>
+
     <div
       class="row "
       style="background-color: #F7F7FF; border-bottom-right-radius: 30%; margin-right: 0px;margin-left: 0px;"
@@ -186,11 +188,14 @@
 <script>
 import AppFooter from './AppFooter.vue';
 import AppNav from './AppNav.vue';
+import NavBarVertical from "./NavBarVertical.vue";
+
 
 export default {
     components:{
         AppFooter,
-        AppNav
+        AppNav,
+        NavBarVertical
 
     }
 };

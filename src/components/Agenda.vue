@@ -1,6 +1,11 @@
 <template>
 <div style="background-color: #f9f9ff">
+    
+    
     <app-nav></app-nav>
+    <nav-bar-vertical></nav-bar-vertical>
+
+  
   <div style="padding-top:40px; padding-bottom: 40px;">
             <div style="background-color: #f9f9ff">
                     <vue-event-calendar  class="act-wrapper shadow rounded-3 bg-white" @day-changed="handleDayChanged"
@@ -15,12 +20,14 @@
 <script>
 import AppFooter from './AppFooter.vue';
 import AppNav from './AppNav.vue';
+import NavBarVertical from "./NavBarVertical.vue";
 
 
 export default {
     components:{
         AppFooter,
-        AppNav
+        AppNav,
+        NavBarVertical
     },
     data () {
     return {

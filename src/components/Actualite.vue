@@ -1,6 +1,8 @@
 <template>
   <div style="background-color: #f9f9ff">
     <app-nav></app-nav>
+    <nav-bar-vertical></nav-bar-vertical>
+   
     <div class="container p-4">
       <div class="row justify-content-center">
         <div class="col-md-12">
@@ -204,10 +206,12 @@
 <script>
 import AppNav from "./AppNav.vue";
 import AppFooter from "./AppFooter.vue";
+import NavBarVertical from "./NavBarVertical.vue";
 export default {
     components:{
         AppNav,
-        AppFooter
+        AppFooter,
+        NavBarVertical
     }
 };
 </script>

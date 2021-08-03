@@ -1,6 +1,7 @@
 <template>
 <div style="background-color:#F7F7FF; padding-buttom:100px" >
     <app-Nav></app-Nav>
+    <nav-bar-vertical></nav-bar-vertical>
     <div style="background-color:#F7F7FF">
         <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 300px">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2618.48891527706!2d2.4286297156787553!3d48.98225257929983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66afba5df8bcd%3A0x7e0988d72e2b928f!2s31%20Rue%20du%20Professeur%20Esclangon%2C%2095400%20Arnouville%2C%20France!5e0!3m2!1sfr!2stn!4v1615719219334!5m2!1sfr!2stn" frameborder="0"
@@ -130,12 +131,15 @@
 <script>
 import AppFooter from './AppFooter.vue';
 import AppNav from './AppNav.vue';
+import NavBarVertical from "./NavBarVertical.vue";
+
 
 
 export default {
     components:{
         AppFooter,
-        AppNav
+        AppNav,
+        NavBarVertical
 
     }
 };
